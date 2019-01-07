@@ -42,6 +42,7 @@ export class CryptoList extends React.Component {
   }
 
   compare(a, b) {
+  	// https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String/localeCompare
     if (a.asset_id_quote > b.asset_id_quote) {
       return 1;
     } else if (a.asset_id_quote < b.asset_id_quote) {
